@@ -51,8 +51,6 @@ window.onclick = function(e){
     }
 };
 
-
-
 restoreform.addEventListener('submit', (e)=>
 {
     e.preventDefault();
@@ -78,5 +76,4 @@ restoreform.addEventListener('submit', (e)=>
             restoreform.reset();
         });
         
-    
 });
